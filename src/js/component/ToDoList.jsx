@@ -44,7 +44,7 @@ function ToDoList(){
     return(
     <div className="to-do-list">
 
-        <h1>To-Do-List</h1>
+        <h1>TO DO LIST</h1>
 
         <div>
             <input
@@ -70,12 +70,12 @@ function ToDoList(){
                     <button
                         className="move-button"
                         onClick={() => moveTaskUp(index)}>
-                        
+                        UP
                     </button>
                     <button
                         className="move-button"
                         onClick={() => moveTaskDown(index)}>
-                        
+                        DOWN
                     </button>
                 </li>
             )}
